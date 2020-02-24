@@ -1,0 +1,13 @@
+'''
+Data I'm using for this Project
+I took data directly from Lending Club's website.
+They subset their data by quarters. 
+I used the last two quarters of 2019, 
+so all accepted loans from June-December of 2019.
+Each CSV from Q3 and Q4 contained over 100,000 rows each.
+I took a subset of those files to extract 
+only the rows where the loan_status was either
+Fully Paid or Charged Off. (This will be the target)
+That left me with two datasets that I will combine.
+The combined data set should have about 7000 rows. 
+'''
